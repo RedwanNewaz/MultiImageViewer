@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1480</width>
+    <height>1156</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1480</width>
+     <height>1092</height>
+    </size>
+   </property>
+   <widget class="QPushButton" name="pushButtonShowAll">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>390</y>
+      <width>123</width>
+      <height>38</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Sans Adlam</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string>Show All</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonShow_2">
+    <property name="geometry">
+     <rect>
+      <x>1351</x>
+      <y>12</y>
+      <width>80</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>show</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="dirTxtBox_2">
+    <property name="geometry">
+     <rect>
+      <x>791</x>
+      <y>5</y>
+      <width>553</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>600</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="placeholderText">
+     <string>                           set image directory here</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="window1_2">
+    <property name="geometry">
+     <rect>
+      <x>791</x>
+      <y>62</y>
+      <width>640</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>640</width>
+      <height>480</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>window2</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="dirTxtBox_4">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>574</y>
+      <width>553</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>600</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="placeholderText">
+     <string>                           set image directory here</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonShow_4">
+    <property name="geometry">
+     <rect>
+      <x>572</x>
+      <y>581</y>
+      <width>80</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>show</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="window1_4">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>631</y>
+      <width>640</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>640</width>
+      <height>480</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>window4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonShow_3">
+    <property name="geometry">
+     <rect>
+      <x>1351</x>
+      <y>581</y>
+      <width>80</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>show</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="window1_3">
+    <property name="geometry">
+     <rect>
+      <x>791</x>
+      <y>631</y>
+      <width>640</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>640</width>
+      <height>480</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>window3</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="dirTxtBox_3">
+    <property name="geometry">
+     <rect>
+      <x>791</x>
+      <y>574</y>
+      <width>553</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>600</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="placeholderText">
+     <string>                           set image directory here</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonShow">
+    <property name="geometry">
+     <rect>
+      <x>572</x>
+      <y>12</y>
+      <width>80</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>show</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="window1">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>62</y>
+      <width>640</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>640</width>
+      <height>480</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>window1</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="dirTxtBox">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>5</y>
+      <width>553</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>600</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="placeholderText">
+     <string>                           set image directory here</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1480</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
